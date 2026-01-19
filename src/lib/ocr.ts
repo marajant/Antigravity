@@ -43,6 +43,28 @@ function releaseWorker(worker: Worker) {
     }
 }
 
+/**
+ * Terminates all OCR workers to free memory.
+ * Call this when the component using OCR unmounts or when the app is closing.
+ */
+export async function terminateAllWorkers(): Promise<void> {
+    // Clear the queue
+    queue.length = 0;
+
+    // Terminate all pooled workers
+    const terminatePromises = workerPool.map(async (worker) => {
+        try {
+            await worker.terminate();
+        } catch (err) {
+            console.warn('Error terminating worker:', err);
+        }
+    });
+
+    await Promise.all(terminatePromises);
+    workerPool.length = 0;
+    activeWorkers = 0;
+}
+
 // ============================================
 // KNOWN VENDOR PATTERNS
 // ============================================

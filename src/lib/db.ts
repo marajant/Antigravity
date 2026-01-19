@@ -127,34 +127,39 @@ db.on('populate', () => {
 
 // Ensure currencies and settings exist for existing databases (migration for users who already have data)
 db.on('ready', async () => {
-    const currencyList = ['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'AUD', 'CNY', 'INR', 'MXN', 'BRL', 'KRW', 'CHF', 'SGD', 'NZD', 'HKD'];
-    const currencyRates: Record<string, number> = {
-        USD: 1.0, EUR: 0.92, GBP: 0.79, JPY: 151.45, CAD: 1.35,
-        AUD: 1.52, CNY: 7.24, INR: 83.12, MXN: 17.08, BRL: 4.97,
-        KRW: 1329.50, CHF: 0.88, SGD: 1.34, NZD: 1.67, HKD: 7.81
-    };
+    try {
+        const currencyList = ['USD', 'EUR', 'GBP', 'JPY', 'CAD', 'AUD', 'CNY', 'INR', 'MXN', 'BRL', 'KRW', 'CHF', 'SGD', 'NZD', 'HKD'];
+        const currencyRates: Record<string, number> = {
+            USD: 1.0, EUR: 0.92, GBP: 0.79, JPY: 151.45, CAD: 1.35,
+            AUD: 1.52, CNY: 7.24, INR: 83.12, MXN: 17.08, BRL: 4.97,
+            KRW: 1329.50, CHF: 0.88, SGD: 1.34, NZD: 1.67, HKD: 7.81
+        };
 
-    const existing = await db.exchangeRates.toArray();
-    const existingIds = new Set(existing.map(e => e.id));
+        const existing = await db.exchangeRates.toArray();
+        const existingIds = new Set(existing.map(e => e.id));
 
-    const missing = currencyList.filter(c => !existingIds.has(c));
-    if (missing.length > 0) {
-        await db.exchangeRates.bulkAdd(
-            missing.map(id => ({ id, rate: currencyRates[id], updatedAt: new Date() }))
-        );
-    }
+        const missing = currencyList.filter(c => !existingIds.has(c));
+        if (missing.length > 0) {
+            await db.exchangeRates.bulkAdd(
+                missing.map(id => ({ id, rate: currencyRates[id], updatedAt: new Date() }))
+            );
+        }
 
-    // Ensure showBudgetCard exists for existing users
-    // Ensure app_settings exists for existing users (migration)
-    const settings = await db.settings.get('app_settings');
-    if (!settings) {
-        await db.settings.add({
-            id: 'app_settings',
-            baseCurrency: 'USD',
-            notificationsEnabled: false,
-            showBudgetCard: true
-        });
-    } else if (settings.showBudgetCard === undefined) {
-        await db.settings.update('app_settings', { showBudgetCard: true });
+        // Ensure showBudgetCard exists for existing users
+        // Ensure app_settings exists for existing users (migration)
+        const settings = await db.settings.get('app_settings');
+        if (!settings) {
+            await db.settings.add({
+                id: 'app_settings',
+                baseCurrency: 'USD',
+                notificationsEnabled: false,
+                showBudgetCard: true
+            });
+        } else if (settings.showBudgetCard === undefined) {
+            await db.settings.update('app_settings', { showBudgetCard: true });
+        }
+    } catch (error) {
+        console.error('Database migration error:', error);
+        // Non-fatal: app can still function with defaults
     }
 });

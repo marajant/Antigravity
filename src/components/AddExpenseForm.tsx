@@ -32,6 +32,16 @@ interface BulkItem {
     receiptPreview?: string;
 }
 
+// CSV Row interface for type-safe CSV parsing
+interface CSVRow {
+    Date?: string;
+    Merchant?: string;
+    Amount?: string;
+    Category?: string;
+    Description?: string;
+    [key: string]: string | undefined;
+}
+
 export function AddExpenseForm({ onClose, onSuccess, initialData }: AddExpenseFormProps) {
     // Single Mode State
     const [file, setFile] = useState<File | null>(null);
@@ -52,7 +62,7 @@ export function AddExpenseForm({ onClose, onSuccess, initialData }: AddExpenseFo
 
     // Bulk Mode State
     const [bulkItems, setBulkItems] = useState<BulkItem[]>([]);
-    const [csvPreview, setCsvPreview] = useState<any[]>([]);
+    const [csvPreview, setCsvPreview] = useState<CSVRow[]>([]);
 
     const categories = useLiveQuery(() => db.categories.toArray());
     const exchangeRates = useLiveQuery(() => db.exchangeRates.toArray()) || [];
@@ -235,32 +245,36 @@ export function AddExpenseForm({ onClose, onSuccess, initialData }: AddExpenseFo
 
         // Add to list and start processing
         const newItems: BulkItem[] = files.map(f => ({
-            id: Math.random().toString(36).substr(2, 9),
+            id: crypto.randomUUID(),
             file: f,
-            status: 'pending',
-            merchant: '', amount: '', date: new Date().toISOString().split('T')[0], categoryId: '',
+            status: 'pending' as BulkItemStatus,
+            merchant: '', amount: '', date: new Date().toISOString().split('T')[0], categoryId: '' as number | '',
             isDuplicate: false
         }));
 
         setBulkItems(prev => [...prev, ...newItems]);
 
-        // Process sequentially
-        for (const item of newItems) {
-            updateBulkItem(item.id, { status: 'processing' });
-            analyzeFile(item.file).then(data => {
-                updateBulkItem(item.id, {
-                    status: data.isDuplicate ? 'duplicate' : 'ready',
-                    merchant: data.merchant,
-                    amount: data.amount,
-                    date: data.date,
-                    categoryId: data.categoryId,
-                    isDuplicate: data.isDuplicate
-                });
-            }).catch(err => {
-                console.error(err);
-                updateBulkItem(item.id, { status: 'error' });
-            });
-        }
+        // Process files sequentially to avoid race conditions
+        const processFilesSequentially = async () => {
+            for (const item of newItems) {
+                updateBulkItem(item.id, { status: 'processing' });
+                try {
+                    const data = await analyzeFile(item.file);
+                    updateBulkItem(item.id, {
+                        status: data.isDuplicate ? 'duplicate' : 'ready',
+                        merchant: data.merchant,
+                        amount: data.amount,
+                        date: data.date,
+                        categoryId: data.categoryId,
+                        isDuplicate: data.isDuplicate
+                    });
+                } catch (err) {
+                    console.error('File processing error:', err);
+                    updateBulkItem(item.id, { status: 'error' });
+                }
+            }
+        };
+        processFilesSequentially();
     };
 
     const handleDrop = (e: React.DragEvent) => {

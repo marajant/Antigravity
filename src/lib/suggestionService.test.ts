@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { levenshtein, findMerchantInText } from './suggestionService'
+import { findMerchantInText } from './suggestionService'
 
 // Export the levenshtein function for testing (it's currently private)
 // For now, test findMerchantInText which uses it internally

@@ -1,0 +1,1703 @@
+{
+  "timestamp": "2026-01-19T00:43:11.435Z",
+  "summary": {
+    "passed": 141,
+    "partial": 0,
+    "failed": 0,
+    "total": 141
+  },
+  "results": [
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03052727_P32934622_08052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-08-05",
+        "merchant": "Invoice  For non-billing questions, please contact"
+      },
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03087741_P32934622_09052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-09-05",
+        "merchant": "Invoice  For non-billing questions, please contact"
+      },
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03122894_P32934622_10052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-10-05",
+        "merchant": "Invoice  For non-billing questions, please contact"
+      },
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03157501_P32934622_11052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-11-05",
+        "merchant": "Invoice  For non-billing questions, please contact"
+      },
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03191748_P32934622_12052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-12-05",
+        "merchant": "Invoice  For non-billing questions, please contact"
+      },
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03225835_P32934622_01052026.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2026-01-05",
+        "merchant": "Invoice  For non-billing questions, please contact"
+      },
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-08-19_905 Adams Dairy Pkwy_tmpcm1ygdvj_eReceipt 2.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 41.99,
+        "date": "2024-08-19",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2"
+      },
+      "rawTextLength": 664
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-442217 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 27.34,
+        "date": "2025-04-08",
+        "merchant": "STORE 2203 North Overland Park  9600 Metcalf Ave  "
+      },
+      "rawTextLength": 42572
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-442217.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 769.64,
+        "date": "2025-04-08",
+        "merchant": "STORE 2203 North Overland Park  9600 Metcalf Ave  "
+      },
+      "rawTextLength": 44640
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-455879 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 2927.21,
+        "date": "2025-12-18",
+        "merchant": "STORE 2203 North Overland Park  9600 Metcalf Ave  "
+      },
+      "rawTextLength": 53524
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-455879.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 100,
+        "date": "2025-12-18",
+        "merchant": "STORE 2203 North Overland Park  9600 Metcalf Ave  "
+      },
+      "rawTextLength": 42787
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205126 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 2979.55,
+        "date": "2025-05-06",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 42864
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205126 (2).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 271.81,
+        "date": "2025-05-06",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 42665
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205126.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 2979.55,
+        "date": "2025-05-06",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 48759
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205127 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 86.98,
+        "date": "2025-05-06",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 42567
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205127.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 1300.2,
+        "date": "2025-05-06",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 65546
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-207284.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 50.73,
+        "date": "2025-09-28",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 42651
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-208428 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 101.45,
+        "date": "2025-12-19",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 42635
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-208428.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 918.16,
+        "date": "2025-12-19",
+        "merchant": "STORE 3024 Blue Springs  905 Ne Adams Dairy Pkwy  "
+      },
+      "rawTextLength": 44623
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 91.69,
+        "date": "2025-02-02",
+        "merchant": "9600 METCALF, OPKS 66212   913-648-7811 THANK YOU "
+      },
+      "rawTextLength": 867
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (2).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 41.99,
+        "date": "2024-08-19",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2"
+      },
+      "rawTextLength": 664
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (3).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 51.33,
+        "date": "2025-01-25",
+        "merchant": "9600 METCALF, OPKS 66212   913-648-7811 THANK YOU "
+      },
+      "rawTextLength": 880
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (4).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 13.67,
+        "date": "2025-05-25",
+        "merchant": "9600 METCALF, OPKS 66212   913-648-7811 THANK YOU "
+      },
+      "rawTextLength": 617
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (5).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 13.93,
+        "date": "2025-05-20",
+        "merchant": "9600 METCALF, OPKS 66212   913-648-7811 THANK YOU "
+      },
+      "rawTextLength": 547
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (6).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 87.81,
+        "date": "2025-05-11",
+        "merchant": "9600 METCALF, OPKS 66212   913-648-7811 THANK YOU "
+      },
+      "rawTextLength": 624
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (7).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 58.98,
+        "date": "2025-03-27",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2"
+      },
+      "rawTextLength": 948
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (8).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 119.81,
+        "date": "2025-01-16",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2"
+      },
+      "rawTextLength": 669
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (9).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 48.24,
+        "date": "2025-03-22",
+        "merchant": "4949 NORTHWEST OLD PIKE ROAD GLADSTONE, MO   64118"
+      },
+      "rawTextLength": 655
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 33.53,
+        "date": "2025-05-19",
+        "merchant": "9600 METCALF, OPKS 66212   913-648-7811 THANK YOU "
+      },
+      "rawTextLength": 564
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-267221 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 1043.66,
+        "date": "2025-07-19",
+        "merchant": "Customer Receipt  7/19/2025, 12:51 PM CDT  Sales P"
+      },
+      "rawTextLength": 1285
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-279115 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 959.36,
+        "date": "2025-11-11",
+        "merchant": "Customer Receipt  11/11/2025, 1:35 PM CST  Sales P"
+      },
+      "rawTextLength": 1074
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-280132 Receipt (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 26.87,
+        "date": "2025-11-21",
+        "merchant": "Customer Receipt  11/21/2025, 5:51 PM CST  Sales P"
+      },
+      "rawTextLength": 1626
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-280132 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 26.87,
+        "date": "2025-11-21",
+        "merchant": "Customer Receipt  11/21/2025, 5:51 PM CST  Sales P"
+      },
+      "rawTextLength": 1626
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-280621 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 942.71,
+        "date": "2025-11-26",
+        "merchant": "Customer Receipt  11/26/2025, 4:58 PM CST  Sales P"
+      },
+      "rawTextLength": 1772
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_128281491.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 167.43,
+        "date": "2025-02-21",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2311
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129002224.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 167.43,
+        "date": "2025-03-24",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2189
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129710010.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 166.9,
+        "date": "2025-04-22",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2167
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_130453992.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 78.66,
+        "date": "2025-05-21",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2154
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131166832.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 51.69,
+        "date": "2025-06-20",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2221
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131880183.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 43.75,
+        "date": "2025-07-22",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2225
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_132580327.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.04,
+        "date": "2025-08-20",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2176
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_133318086.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.04,
+        "date": "2025-09-22",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2195
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134012369.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.68,
+        "date": "2025-10-21",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2224
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134709123.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.42,
+        "date": "2025-11-20",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2240
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_135407581.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 73.53,
+        "date": "2025-12-23",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2253
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_128281492.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 198.07,
+        "date": "2025-02-21",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2312
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129002225.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 198.07,
+        "date": "2025-03-24",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2189
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129710011.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 179.23,
+        "date": "2025-04-22",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2167
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_130453993.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 68.31,
+        "date": "2025-05-21",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2154
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131166833.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 56.83,
+        "date": "2025-06-20",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2221
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131880184.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 42.69,
+        "date": "2025-07-22",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2225
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_132580328.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.94,
+        "date": "2025-08-20",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2176
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_133318087.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.94,
+        "date": "2025-09-22",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2195
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134012370.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.58,
+        "date": "2025-10-21",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2224
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134709124.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.58,
+        "date": "2025-11-20",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2240
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_135407582.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 80.96,
+        "date": "2025-12-23",
+        "merchant": "Customer Service: 800-794-4780 Gas Leaks: 888-482-"
+      },
+      "rawTextLength": 2253
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2023-12-31_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 34537,
+        "date": "2023-01-01",
+        "merchant": "2023 ANNUAL SUMMARY   STATEMENT  MARAJAN TUTU  Acc"
+      },
+      "rawTextLength": 57004
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-01-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-02-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 24044
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-02-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-03-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 21737
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-03-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-04-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 24617
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-04-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-05-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 23913
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-05-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-06-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 24556
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-06-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-07-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 21854
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-07-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-08-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 24427
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-08-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-09-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 22750
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-09-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-10-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20764
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-10-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-11-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 22680
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-11-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2024-12-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20606
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-12-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-01-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 19045
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-12-31_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 52806.02,
+        "date": "2024-01-01",
+        "merchant": "2024 ANNUAL SUMMARY   STATEMENT  MARAJAN TUTU  Acc"
+      },
+      "rawTextLength": 65676
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-01-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-02-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20507
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-02-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-03-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 19849
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-03-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-04-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20264
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-04-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-05-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 18549
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-05-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-06-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20389
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-06-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-07-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 23366
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-07-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-08-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 25962
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-08-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-09-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 19415
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-09-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-10-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 23169
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-10-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-11-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20641
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-11-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2025-12-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 20441
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-12-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 1,
+        "date": "2026-01-05",
+        "merchant": "Navy Federal More Rewards American Express ®   Car"
+      },
+      "rawTextLength": 18320
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-332784.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2023-10-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 498
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-342669.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2023-11-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-352424.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2023-12-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-361889.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-01-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-371174.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-02-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-380328.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-03-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-389812.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-04-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-398514.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-05-20",
+        "merchant": "1  Sub Total   95.00  Total   $95.00  Payment Made"
+      },
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-406322.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-06-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-413827.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-07-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-421326.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-08-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-428828.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-09-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-435719.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-10-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-442133.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-11-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-448430.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-12-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-454754.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-01-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-461142.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-02-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-467383.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-03-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-473397.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-04-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-478893.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-05-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-484114.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-06-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-489095.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-07-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-493757.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-08-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-498187.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-09-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-502631.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-10-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-507041.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-11-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-511394.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-12-20",
+        "merchant": "1  Sub Total   125.00  Total   $125.00  Payment Ma"
+      },
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2023-12-01_Page 1 Of 2_tmpj10begbm_data 16.pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.65,
+        "date": "2023-12-01",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5292
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-11-18_Page 1 Of 2_tmpfy7p7ua0_data 9.pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 42.58,
+        "date": "2024-01-18",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (1).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (10).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 42.58,
+        "date": "2024-01-18",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (11).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 46.5,
+        "date": "2024-09-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5396
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (12).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.83,
+        "date": "2024-07-19",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5500
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (13).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 39.21,
+        "date": "2024-05-16",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5284
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (14).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 41.17,
+        "date": "2024-04-03",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5290
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (15).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.74,
+        "date": "2024-02-02",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5290
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (16).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.65,
+        "date": "2023-12-01",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5292
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (17).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 51.08,
+        "date": "2023-10-04",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5404
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (2).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (3).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 46.28,
+        "date": "2025-01-18",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5510
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (4).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.59,
+        "date": "2025-09-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5504
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (5).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 45.08,
+        "date": "2025-07-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5500
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (6).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 39.33,
+        "date": "2025-05-16",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5394
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (7).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.58,
+        "date": "2025-03-20",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (8).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (9).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 42.58,
+        "date": "2024-01-18",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data.pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "T otal   Amount   Due  page   1   of   2  10747   "
+      },
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice (10).aspx.pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.92,
+        "date": "2025-10-04",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 9191
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice 0.aspx.pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 59.05,
+        "date": "2025-12-05",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 8801
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (1).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.98,
+        "date": "2025-11-02",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 8778
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (2).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 63.15,
+        "date": "2025-09-04",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 9070
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (3).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.59,
+        "date": "2025-08-02",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 9070
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (4).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 61.84,
+        "date": "2025-07-04",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 8778
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (5).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.26,
+        "date": "2025-06-04",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 8049
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (6).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.38,
+        "date": "2025-05-03",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 8049
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (7).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.36,
+        "date": "2025-04-05",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 8046
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (8).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 62.34,
+        "date": "2025-03-07",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 7841
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (9).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 61.78,
+        "date": "2025-02-05",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 7841
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx.pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 64.72,
+        "date": "2026-01-02",
+        "merchant": "Total Account Balance Due Current Invoice Charges "
+      },
+      "rawTextLength": 9393
+    }
+  ]
+}

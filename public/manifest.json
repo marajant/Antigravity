@@ -1,0 +1,74 @@
+{
+  "name": "ExpenseFlow",
+  "short_name": "ExpenseFlow",
+  "description": "Track, Analyze, Optimize your expenses.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#7366ff",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Expense",
+      "short_name": "Add",
+      "url": "/?action=add",
+      "icons": [{ "src": "/vite.svg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Analytics",
+      "short_name": "Stats",
+      "url": "/?action=analytics",
+      "icons": [{ "src": "/vite.svg", "sizes": "192x192" }]
+    }
+  ],
+  "categories": [
+    "finance",
+    "productivity",
+    "utilities"
+  ],
+  "screenshots": [
+    {
+        "src": "/vite.svg", 
+        "sizes": "1080x1920",
+        "type": "image/png",
+        "form_factor": "wide",
+        "label": "Desktop Dashboard"
+    },
+    {
+        "src": "/vite.svg",
+        "sizes": "750x1334",
+        "type": "image/png",
+        "form_factor": "narrow",
+        "label": "Mobile Dashboard"
+    }
+  ]
+}

@@ -1,0 +1,1986 @@
+{
+  "timestamp": "2026-01-19T01:53:18.654Z",
+  "summary": {
+    "passed": 141,
+    "partial": 0,
+    "failed": 0,
+    "total": 141,
+    "merchantMatches": 122
+  },
+  "results": [
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03052727_P32934622_08052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-08-05",
+        "merchant": "Dot Loop",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03087741_P32934622_09052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-09-05",
+        "merchant": "Dot Loop",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03122894_P32934622_10052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-10-05",
+        "merchant": "Dot Loop",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03157501_P32934622_11052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-11-05",
+        "merchant": "Dot Loop",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03191748_P32934622_12052025.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2025-12-05",
+        "merchant": "Dot Loop",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV03225835_P32934622_01052026.pdf",
+      "vendor": "Dot Loop",
+      "extracted": {
+        "amount": 31.99,
+        "date": "2026-01-05",
+        "merchant": "Dot Loop",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 715
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-08-19_905 Adams Dairy Pkwy_tmpcm1ygdvj_eReceipt 2.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 41.99,
+        "date": "2024-08-19",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 664
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-442217 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-04-08",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42572
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-442217.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-04-08",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 44640
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-455879 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-12-18",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 53524
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st2203-455879.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-12-18",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42787
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205126 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-05-06",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42864
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205126 (2).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-05-06",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42665
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205126.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-05-06",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 48759
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205127 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-05-06",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42567
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-205127.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-05-06",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 65546
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-207284.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-09-28",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42651
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-208428 (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-12-19",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 42635
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "contract-st3024-208428.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 627.73,
+        "date": "2025-12-19",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 44623
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 91.69,
+        "date": "2025-02-02",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 867
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (2).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 41.99,
+        "date": "2024-08-19",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 664
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (3).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 51.33,
+        "date": "2025-01-25",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 880
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (4).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 13.67,
+        "date": "2025-05-25",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 617
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (5).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 13.93,
+        "date": "2025-05-20",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 547
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (6).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 87.81,
+        "date": "2025-05-11",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 624
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (7).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 58.98,
+        "date": "2025-03-27",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 948
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (8).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 119.81,
+        "date": "2025-01-16",
+        "merchant": "905 ADAMS DAIRY PKWY BLUE SPRINGS, MO 64014 (816)2",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 669
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt (9).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 48.24,
+        "date": "2025-03-22",
+        "merchant": "4949 NORTHWEST OLD PIKE ROAD GLADSTONE, MO   64118",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 655
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "eReceipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 33.53,
+        "date": "2025-05-19",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 564
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-267221 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 1043.66,
+        "date": "2025-07-19",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 1285
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-279115 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 959.36,
+        "date": "2025-11-11",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 1074
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-280132 Receipt (1).pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 26.87,
+        "date": "2025-11-21",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 1626
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-280132 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 26.87,
+        "date": "2025-11-21",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 1626
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "H3024-280621 Receipt.pdf",
+      "vendor": "Home Depot",
+      "extracted": {
+        "amount": 942.71,
+        "date": "2025-11-26",
+        "merchant": "Home Depot",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 1772
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_128281491.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 167.43,
+        "date": "2025-02-21",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2311
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129002224.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 167.43,
+        "date": "2025-03-24",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2189
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129710010.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 166.9,
+        "date": "2025-04-22",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2167
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_130453992.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 78.66,
+        "date": "2025-05-21",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2154
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131166832.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 51.69,
+        "date": "2025-06-20",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2221
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131880183.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 43.75,
+        "date": "2025-07-22",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2225
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_132580327.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.04,
+        "date": "2025-08-20",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2176
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_133318086.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.04,
+        "date": "2025-09-22",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2195
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134012369.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.68,
+        "date": "2025-10-21",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2224
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134709123.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.42,
+        "date": "2025-11-20",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2240
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_135407581.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 73.53,
+        "date": "2025-12-23",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2253
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_128281492.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 198.07,
+        "date": "2025-02-21",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2312
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129002225.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 198.07,
+        "date": "2025-03-24",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2189
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_129710011.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 179.23,
+        "date": "2025-04-22",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2167
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_130453993.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 68.31,
+        "date": "2025-05-21",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2154
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131166833.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 56.83,
+        "date": "2025-06-20",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2221
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_131880184.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 42.69,
+        "date": "2025-07-22",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2225
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_132580328.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.94,
+        "date": "2025-08-20",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2176
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_133318087.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 35.94,
+        "date": "2025-09-22",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2195
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134012370.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.58,
+        "date": "2025-10-21",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2224
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_134709124.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 37.58,
+        "date": "2025-11-20",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2240
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "DOC_135407582.pdf",
+      "vendor": "Kansas gas",
+      "extracted": {
+        "amount": 80.96,
+        "date": "2025-12-23",
+        "merchant": "Kansas Gas Service",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 2253
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2023-12-31_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 34537,
+        "date": "2023-01-01",
+        "merchant": "2023 ANNUAL SUMMARY   STATEMENT  MARAJAN TUTU  Acc",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 57004
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-01-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 8716.95,
+        "date": "2024-02-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 24044
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-02-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 9622.21,
+        "date": "2024-03-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 21737
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-03-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 10575.25,
+        "date": "2024-04-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 24617
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-04-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 9091.36,
+        "date": "2024-05-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 23913
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-05-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 10506.62,
+        "date": "2024-06-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 24556
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-06-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 4469.6,
+        "date": "2024-07-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 21854
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-07-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 3459.43,
+        "date": "2024-08-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 24427
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-08-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 4303.26,
+        "date": "2024-09-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 22750
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-09-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 4904.85,
+        "date": "2024-10-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20764
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-10-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 4844.55,
+        "date": "2024-11-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 22680
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-11-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 4758.51,
+        "date": "2024-12-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20606
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-12-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 2110.7,
+        "date": "2025-01-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 19045
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-12-31_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 52806.02,
+        "date": "2024-01-01",
+        "merchant": "2024 ANNUAL SUMMARY   STATEMENT  MARAJAN TUTU  Acc",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 65676
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-01-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 3301.72,
+        "date": "2025-02-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20507
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-02-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 3856.89,
+        "date": "2025-03-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 19849
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-03-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 2885.14,
+        "date": "2025-04-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20264
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-04-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 3621.38,
+        "date": "2025-05-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 18549
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-05-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 2914.72,
+        "date": "2025-06-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20389
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-06-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 6131.71,
+        "date": "2025-07-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 23366
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-07-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 8748.04,
+        "date": "2025-08-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 25962
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-08-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 6947.33,
+        "date": "2025-09-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 19415
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-09-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 3574.69,
+        "date": "2025-10-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 23169
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-10-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 5754.85,
+        "date": "2025-11-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20641
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-11-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 2673.49,
+        "date": "2025-12-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 20441
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2025-12-08_AXSTMT.pdf",
+      "vendor": "Navy fed",
+      "extracted": {
+        "amount": 2111.65,
+        "date": "2026-01-05",
+        "merchant": "Navy Federal",
+        "isStatement": true
+      },
+      "merchantMatch": true,
+      "rawTextLength": 18320
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-332784.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2023-10-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 498
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-342669.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2023-11-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-352424.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2023-12-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-361889.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-01-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-371174.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-02-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-380328.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-03-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-389812.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-04-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-398514.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 95,
+        "date": "2024-05-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 485
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-406322.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-06-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-413827.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-07-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-421326.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-08-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-428828.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-09-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-435719.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-10-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-442133.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-11-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-448430.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2024-12-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-454754.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-01-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-461142.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-02-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-467383.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-03-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-473397.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-04-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-478893.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-05-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-484114.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-06-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-489095.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-07-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-493757.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-08-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-498187.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-09-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-502631.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-10-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-507041.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-11-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "INV-511394.pdf",
+      "vendor": "Vyde",
+      "extracted": {
+        "amount": 125,
+        "date": "2025-12-20",
+        "merchant": "Vyde",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 490
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2023-12-01_Page 1 Of 2_tmpj10begbm_data 16.pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.65,
+        "date": "2023-12-01",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5292
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "2024-11-18_Page 1 Of 2_tmpfy7p7ua0_data 9.pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 42.58,
+        "date": "2024-01-18",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (1).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (10).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 42.58,
+        "date": "2024-01-18",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (11).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 46.5,
+        "date": "2024-09-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5396
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (12).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.83,
+        "date": "2024-07-19",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5500
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (13).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 39.21,
+        "date": "2024-05-16",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5284
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (14).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 41.17,
+        "date": "2024-04-03",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5290
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (15).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.74,
+        "date": "2024-02-02",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5290
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (16).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.65,
+        "date": "2023-12-01",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5292
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (17).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 51.08,
+        "date": "2023-10-04",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5404
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (2).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (3).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 46.28,
+        "date": "2025-01-18",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5510
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (4).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 48.59,
+        "date": "2025-09-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5504
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (5).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 45.08,
+        "date": "2025-07-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5500
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (6).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 39.33,
+        "date": "2025-05-16",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5394
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (7).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.58,
+        "date": "2025-03-20",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (8).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data (9).pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 42.58,
+        "date": "2024-01-18",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "data.pdf",
+      "vendor": "Water one",
+      "extracted": {
+        "amount": 40.46,
+        "date": "2025-01-17",
+        "merchant": "WaterOne",
+        "isStatement": false
+      },
+      "merchantMatch": true,
+      "rawTextLength": 5291
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice (10).aspx.pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-10-04",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 9191
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice 0.aspx.pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-12-05",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 8801
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (1).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-11-02",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 8778
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (2).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-09-04",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 9070
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (3).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-08-02",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 9070
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (4).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-07-04",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 8778
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (5).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-06-04",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 8049
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (6).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-05-03",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 8049
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (7).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-04-05",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 8046
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (8).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-03-07",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 7841
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx (9).pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2025-02-05",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 7841
+    },
+    {
+      "success": true,
+      "partial": true,
+      "filename": "WMI5000_DirectInvoice.aspx.pdf",
+      "vendor": "WM",
+      "extracted": {
+        "amount": 128.45,
+        "date": "2026-01-02",
+        "merchant": "Waste Management",
+        "isStatement": false
+      },
+      "merchantMatch": false,
+      "rawTextLength": 9393
+    }
+  ]
+}

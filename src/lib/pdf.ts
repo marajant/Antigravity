@@ -1,20 +1,38 @@
 import * as pdfjsLib from 'pdfjs-dist';
+import type { TextItem } from 'pdfjs-dist/types/src/display/api';
 
 // Point to the worker file.
 import pdfWorker from 'pdfjs-dist/build/pdf.worker.mjs?url';
 pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorker;
 
+/** Scale factor for PDF rendering (higher = better OCR quality but slower) */
+const PDF_RENDER_SCALE = 1.5;
+
+/** Vertical distance threshold (in points) to detect line breaks */
+const LINE_BREAK_THRESHOLD = 5;
+
+/** Horizontal gap threshold (in points) to detect word boundaries */
+const WORD_GAP_THRESHOLD = 1;
+
+/**
+ * Renders the first page of a PDF file to an image blob.
+ * Used for OCR processing when native text extraction fails.
+ * 
+ * @param file - PDF file to render
+ * @returns Promise resolving to a PNG image blob
+ * @throws Error if canvas context is unavailable or rendering fails
+ */
 export async function renderPdfToImage(file: File): Promise<Blob> {
     const arrayBuffer = await file.arrayBuffer();
     const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-    const page = await pdf.getPage(1); // Get first page
+    const page = await pdf.getPage(1);
 
-    const viewport = page.getViewport({ scale: 1.5 }); // 1.5x scale for better OCR
+    const viewport = page.getViewport({ scale: PDF_RENDER_SCALE });
     const canvas = document.createElement('canvas');
     const context = canvas.getContext('2d');
 
     if (!context) {
-        throw new Error('Canvas context not available');
+        throw new Error('Canvas 2D context not available');
     }
 
     canvas.height = viewport.height;
@@ -22,8 +40,9 @@ export async function renderPdfToImage(file: File): Promise<Blob> {
 
     await page.render({
         canvasContext: context,
-        viewport: viewport
-    } as any).promise; // Cast to any to satisfy type checking for .promise
+        viewport: viewport,
+        canvas: canvas,
+    }).promise;
 
     return new Promise((resolve, reject) => {
         canvas.toBlob((blob) => {
@@ -36,26 +55,41 @@ export async function renderPdfToImage(file: File): Promise<Blob> {
     });
 }
 
+/** Represents a positioned text item from PDF extraction */
+interface PositionedTextItem {
+    str: string;
+    x: number;
+    y: number;
+    w: number;
+}
+
+/**
+ * Extracts text content from the first page of a PDF file.
+ * Reconstructs text layout by analyzing item positions.
+ * 
+ * @param file - PDF file to extract text from
+ * @returns Promise resolving to the extracted text string
+ */
 export async function extractPdfText(file: File): Promise<string> {
     const arrayBuffer = await file.arrayBuffer();
     const pdf = await pdfjsLib.getDocument({ data: arrayBuffer }).promise;
     const page = await pdf.getPage(1);
     const content = await page.getTextContent();
 
-    // Sort items by Y (desc) then X (asc) to reconstruct lines
-    // Filter out items that don't have 'str' (TextMarkedContent) and cast to any for simplicity with PDFJS types
-    const items = content.items
-        .filter((item: any) => item.str !== undefined)
-        .map((item: any) => ({
+    // Filter and map text items with position data
+    const items: PositionedTextItem[] = content.items
+        .filter((item): item is TextItem => 'str' in item && item.str !== undefined)
+        .map((item) => ({
             str: item.str,
             x: item.transform[4],
             y: item.transform[5],
-            w: item.width // Capture width
+            w: item.width
         }));
 
+    // Sort by Y (descending) then X (ascending) to reconstruct reading order
     items.sort((a, b) => {
         const yDiff = b.y - a.y;
-        if (Math.abs(yDiff) > 5) return yDiff; // significant vertical difference
+        if (Math.abs(yDiff) > LINE_BREAK_THRESHOLD) return yDiff;
         return a.x - b.x;
     });
 
@@ -65,13 +99,12 @@ export async function extractPdfText(file: File): Promise<string> {
     let lastW = 0;
 
     for (const item of items) {
-        if (lastY !== -1 && Math.abs(item.y - lastY) > 5) {
+        if (lastY !== -1 && Math.abs(item.y - lastY) > LINE_BREAK_THRESHOLD) {
             text += '\n';
         } else if (lastX !== -1) {
-            // Smart Spacing: Only add space if gap is significant
-            // Lowered threshold to 1 to prevent smashing words together (e.g. "DueDate01/17")
+            // Smart spacing: add space if gap exceeds threshold
             const gap = item.x - (lastX + lastW);
-            if (gap > 1) {
+            if (gap > WORD_GAP_THRESHOLD) {
                 text += ' ';
             }
         }
@@ -80,5 +113,6 @@ export async function extractPdfText(file: File): Promise<string> {
         lastX = item.x;
         lastW = item.w;
     }
+
     return text;
 }

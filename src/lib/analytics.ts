@@ -111,7 +111,7 @@ export function generateInsights(expenses: Expense[], rates: ExchangeRate[] = []
             });
         }
     } else if (thisMonthTotal > 0) {
-        const currencySymbol = targetCurrency === 'USD' ? '$' : targetCurrency === 'EUR' ? '€' : targetCurrency === 'GBP' ? '£' : targetCurrency === 'JPY' ? '¥' : '$';
+        const currencySymbol = getCurrencySymbol(targetCurrency);
         insights.push({ type: 'neutral', message: `Total spending this month: ${currencySymbol}${thisMonthTotal.toFixed(2)}` });
     }
 
@@ -128,7 +128,7 @@ export function generateInsights(expenses: Expense[], rates: ExchangeRate[] = []
     const threshold = convertAmount(500, 'USD', targetCurrency, rates);
 
     if (highValue && highValue.convertedAmount > threshold) {
-        const currencySymbol = targetCurrency === 'USD' ? '$' : targetCurrency === 'EUR' ? '€' : targetCurrency === 'JPY' ? '¥' : '$';
+        const currencySymbol = getCurrencySymbol(targetCurrency);
         insights.push({
             type: 'neutral',
             message: `Big ticket item detected: ${highValue.merchant} (${currencySymbol}${highValue.convertedAmount.toFixed(0)})`

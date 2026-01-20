@@ -318,6 +318,39 @@ export function AddExpenseForm({ onClose, onSuccess, initialData }: AddExpenseFo
         }
     };
 
+    // Save all ready items at once
+    const [isSavingAll, setIsSavingAll] = useState(false);
+
+    const saveAllReadyItems = async () => {
+        const readyItems = bulkItems.filter(item =>
+            (item.status === 'ready' || item.status === 'duplicate' || item.status === 'error') &&
+            item.merchant.trim() !== ''
+        );
+
+        if (readyItems.length === 0) return;
+
+        setIsSavingAll(true);
+
+        for (const item of readyItems) {
+            await saveBulkItem(item);
+        }
+
+        setIsSavingAll(false);
+
+        // If all items were saved, close the modal
+        if (bulkItems.length === readyItems.length) {
+            onSuccess();
+            onClose();
+        }
+    };
+
+    // Count ready items for the button
+    const readyItemsCount = bulkItems.filter(item =>
+        (item.status === 'ready' || item.status === 'duplicate' || item.status === 'error') &&
+        item.merchant.trim() !== ''
+    ).length;
+    const processingCount = bulkItems.filter(item => item.status === 'pending' || item.status === 'processing').length;
+
     const inputStyle = {
         width: '100%', padding: '0.75rem', borderRadius: 'var(--radius-md)',
         border: '1px solid rgba(255, 255, 255, 0.1)', background: 'var(--bg-color)',
@@ -406,6 +439,34 @@ export function AddExpenseForm({ onClose, onSuccess, initialData }: AddExpenseFo
                             <h3 className="font-bold">Review {bulkItems.length} Items</h3>
                             <button onClick={() => { setBulkItems([]); setCsvPreview([]); }} style={{ fontSize: '0.9rem', color: 'var(--text-secondary)' }}>Cancel Bulk Input</button>
                         </div>
+
+                        {/* Add All Button */}
+                        {bulkItems.length > 0 && (
+                            <Button
+                                onClick={saveAllReadyItems}
+                                disabled={readyItemsCount === 0 || isSavingAll}
+                                isLoading={isSavingAll}
+                                style={{
+                                    width: '100%',
+                                    marginBottom: '1rem',
+                                    background: readyItemsCount > 0 ? 'var(--primary)' : 'var(--border-color)',
+                                    color: 'white',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    gap: '0.5rem',
+                                    padding: '0.75rem 1rem',
+                                    fontSize: '1rem',
+                                    fontWeight: 600
+                                }}
+                            >
+                                <Check size={18} />
+                                {processingCount > 0
+                                    ? `Add All (${readyItemsCount} ready, ${processingCount} processing...)`
+                                    : `Add All ${readyItemsCount} Expenses`
+                                }
+                            </Button>
+                        )}
 
                         {bulkItems.length > 0 && (
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', maxHeight: '55vh', overflowY: 'auto', paddingRight: '4px' }}>

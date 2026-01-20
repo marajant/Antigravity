@@ -7,6 +7,7 @@ import { useLiveQuery } from 'dexie-react-hooks';
 import { useState } from 'react';
 import { NotificationService } from '../lib/notificationService';
 import { ToggleSwitch } from './ui/ToggleSwitch';
+import { useToast } from './ui/Toast';
 
 export interface SettingsModalProps {
     onClose: () => void;
@@ -27,6 +28,7 @@ const COLOR_SWATCHES = [
 ];
 
 export function SettingsModal({ onClose, isOpen = true, inlineMode = false }: SettingsModalProps) {
+    const toast = useToast();
     const categories = useLiveQuery(() => db.categories.toArray());
     const budgets = useLiveQuery(() => db.budgets.toArray());
     const settings = useLiveQuery(() => db.settings.get('app_settings'));
@@ -45,9 +47,10 @@ export function SettingsModal({ onClose, isOpen = true, inlineMode = false }: Se
             });
             setNewCatName('');
             setNewCatColor(COLOR_SWATCHES[Math.floor(Math.random() * COLOR_SWATCHES.length)]);
+            toast.success(`Category "${newCatName.trim()}" added!`);
         } catch (error) {
             console.error('Failed to add category:', error);
-            alert('Failed to add category. Please try again.');
+            toast.error('Failed to add category. Please try again.');
         }
     };
 
@@ -55,11 +58,11 @@ export function SettingsModal({ onClose, isOpen = true, inlineMode = false }: Se
         if (confirm('Delete this category? Transactions using it will lose their category association.')) {
             try {
                 await db.categories.delete(id);
-                // Also delete associated budgets
                 await db.budgets.where('categoryId').equals(id).delete();
+                toast.success('Category deleted.');
             } catch (error) {
                 console.error('Failed to delete category:', error);
-                alert('Failed to delete category. Please try again.');
+                toast.error('Failed to delete category. Please try again.');
             }
         }
     };
@@ -90,10 +93,11 @@ export function SettingsModal({ onClose, isOpen = true, inlineMode = false }: Se
         if (confirm('Are you sure you want to delete ALL data? This cannot be undone.')) {
             try {
                 await Promise.all(db.tables.map(table => table.clear()));
-                window.location.reload();
+                toast.success('All data cleared. Reloading...');
+                setTimeout(() => window.location.reload(), 1500);
             } catch (error) {
                 console.error('Failed to clear data:', error);
-                alert('Failed to clear data. Please try again.');
+                toast.error('Failed to clear data. Please try again.');
             }
         }
     };
@@ -105,10 +109,10 @@ export function SettingsModal({ onClose, isOpen = true, inlineMode = false }: Se
             await db.expenses.add({ amount: 5, merchant: 'Starbucks', categoryId: 1, date: new Date(), createdAt: new Date(), currency: 'USD', isTaxRelevant: 0, file_hash: 'seed3' });
             await db.expenses.add({ amount: 20, merchant: 'Starbucks', categoryId: 2, date: new Date(), createdAt: new Date(), currency: 'USD', isTaxRelevant: 0, file_hash: 'seed4' });
             await db.expenses.add({ amount: 100, merchant: 'Micro Center', categoryId: 3, date: new Date(), createdAt: new Date(), currency: 'USD', isTaxRelevant: 0, file_hash: 'seed5' });
-            alert("Seeded: Starbucks (3x Cat 1, 1x Cat 2), Micro Center (1x Cat 3)");
+            toast.success('Test data seeded: 5 expenses added.');
         } catch (error) {
             console.error('Failed to seed data:', error);
-            alert('Failed to seed data. Please try again.');
+            toast.error('Failed to seed data. Please try again.');
         }
     };
 

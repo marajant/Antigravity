@@ -1,51 +1,15 @@
 {
-  "name": "ghost-helix",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:ui": "vitest --ui",
-    "test:coverage": "vitest run --coverage"
-  },
-  "dependencies": {
-    "date-fns": "^4.1.0",
-    "dexie": "^4.2.1",
-    "dexie-react-hooks": "^4.2.0",
-    "framer-motion": "^12.23.26",
-    "lucide-react": "^0.562.0",
-    "papaparse": "^5.5.3",
-    "pdfjs-dist": "^5.4.449",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.11.0",
-    "recharts": "^3.6.0",
-    "tesseract.js": "^7.0.0"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.39.1",
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
-    "@types/node": "^24.10.1",
-    "@types/papaparse": "^5.5.2",
-    "@types/react": "^19.2.5",
-    "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^5.1.1",
-    "@vitest/ui": "^4.0.17",
-    "eslint": "^9.39.1",
-    "eslint-plugin-react-hooks": "^7.0.1",
-    "eslint-plugin-react-refresh": "^0.4.24",
-    "globals": "^16.5.0",
-    "jsdom": "^27.4.0",
-    "typescript": "~5.9.3",
-    "typescript-eslint": "^8.46.4",
-    "vite": "^7.2.4",
-    "vitest": "^4.0.17"
-  }
+    "name": "antigravity-monorepo",
+    "private": true,
+    "version": "1.0.0",
+    "scripts": {
+        "dev": "pnpm --filter expense-flow dev",
+        "build": "pnpm --filter expense-flow build",
+        "preview": "pnpm --filter expense-flow preview",
+        "lint": "pnpm --filter expense-flow lint",
+        "test": "pnpm --filter expense-flow test"
+    },
+    "devDependencies": {
+        "pnpm": "^9.0.0"
+    }
 }

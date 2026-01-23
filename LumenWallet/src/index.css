@@ -1,0 +1,141 @@
+@import '@fontsource/inter/400.css';
+@import '@fontsource/inter/600.css';
+@import '@fontsource/inter/800.css';
+@import '@fontsource/jetbrains-mono/400.css';
+@import '@fontsource/jetbrains-mono/500.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Lumen Wallet - Illuminated Glass Theme */
+    --font-sans: 'Inter', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+
+    /* Base Palette - HSL values without alpha, for tailwind opacity modifiers */
+    --lumen-glow: 200 100% 70%;
+    /* #66CCFF - Cyan/Teal Glow */
+    --gold-accent: 45 80% 70%;
+    /* #EBD675 - Warm Gold */
+    --bg-dark: 220 30% 8%;
+    /* #0E121B - Deep Navy Black */
+    --surface-glass: 220 25% 12%;
+    /* #171C26 - Glass Base */
+
+    /* Semantic Mappings (Dark Default) */
+    --background: 220 30% 8%;
+    --foreground: 0 0% 95%;
+    /* #F2F2F2 */
+
+    --card: 220 25% 12%;
+    --card-foreground: 0 0% 95%;
+    --popover: 220 25% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 200 100% 70%;
+    --primary-foreground: 220 30% 8%;
+
+    --secondary: 220 20% 20%;
+    --secondary-foreground: 0 0% 95%;
+
+    --muted: 220 20% 20%;
+    --muted-foreground: 220 20% 70%;
+    /* #8A92A3 */
+
+    --accent: 200 100% 70%;
+    --accent-foreground: 220 30% 8%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 30% 30%;
+    --input: 220 30% 30%;
+    --ring: 200 100% 70%;
+
+    --radius: 1rem;
+  }
+
+  .light {
+    /* Complementary Light Mode */
+    --background: 220 20% 97%;
+    /* #F6F7F9 */
+    --foreground: 220 30% 8%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 30% 8%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 30% 8%;
+
+    --primary: 200 100% 40%;
+    /* Darker Cyan for readability on light */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 90%;
+    --secondary-foreground: 220 30% 8%;
+
+    --muted: 220 14% 90%;
+    --muted-foreground: 220 20% 45%;
+
+    --accent: 200 100% 40%;
+    --accent-foreground: 0 0% 100%;
+
+    --border: 220 14% 85%;
+    --input: 220 14% 85%;
+    --ring: 200 100% 40%;
+
+    /* Ensure glass mostly disappears or becomes solid in light mode for better contrast */
+    --surface-glass: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+
+  /* Financial Numbers */
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply border border-white/10 shadow-xl backdrop-blur-md;
+    background: hsla(220, 25%, 12%, 0.6);
+    /* Fallback or explicit if var issues */
+    background: hsla(var(--surface-glass) / 0.6);
+    /* Inner cyan glow + box shadow depth */
+    box-shadow:
+      inset 0 0 20px hsla(200, 100%, 70%, 0.05),
+      0 8px 32px rgba(0, 0, 0, 0.37);
+  }
+
+  .glass-button {
+    @apply transition-all duration-300 ease-out active:scale-95;
+  }
+
+  .glass-button:hover,
+  .glass-button:focus-visible {
+    transform: translateY(-2px);
+    box-shadow:
+      inset 0 0 30px hsla(200, 100%, 70%, 0.25),
+      0 0 20px hsla(200, 100%, 70%, 0.15);
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, hsl(var(--lumen-glow)), hsl(var(--gold-accent)));
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+}
